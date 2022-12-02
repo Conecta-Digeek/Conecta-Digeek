@@ -1,5 +1,5 @@
 const Contenttable = () => {
-  return <div>content</div>;
+  return <div>content table</div>;
 };
 
 export default Contenttable;
