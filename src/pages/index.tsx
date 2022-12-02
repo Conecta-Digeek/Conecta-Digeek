@@ -1,9 +1,10 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import Navbar from "../components/core/Navbar/Navbar";
+import Navbar from "../components/core/Navbar";
 import Article from "../components/mainpage/Article";
 import { signIn, signOut, useSession } from "next-auth/react";
+import Contenttable from "../components/mainpage/Contenttable";
 
 import { trpc } from "../utils/trpc";
 
@@ -18,14 +19,12 @@ const Home: NextPage = () => {
           className="max-h-96 object-cover"
         />
       </div>
-      <div className=" px-10 flex gap-16 justify-center">
+      <div className="flex justify-center gap-16 px-10">
         <Article />
         <Article />
         <Article />
       </div>
-      <div className="h-40">
-
-      </div>
+      <Contenttable />
     </>
   );
 };
