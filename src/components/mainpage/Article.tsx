@@ -1,6 +1,6 @@
 const Article = () => {
   return (
-    <div className="w-2/5 max-w-xs rounded border-2 border-gray-100 shadow-lg">
+    <div className="w-[500px] rounded border-2 border-gray-100 shadow-lg">
       {/* image */}
       <div className="max-h-40 w-full overflow-hidden rounded">
         <img
