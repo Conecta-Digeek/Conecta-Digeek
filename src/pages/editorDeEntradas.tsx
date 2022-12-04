@@ -2,12 +2,14 @@ import { type NextPage } from "next";
 import Navbar from "../components/core/Navbar/Navbar";
 import TarjetaInfo from "../components/editorDeVistas/Tarjeta";
 
-const editorDeVistas: NextPage = () => {
+const editorDeEntradas: NextPage = () => {
     return (
         <>
 					<Navbar />
 					<div className="grid grid-rows-6">
-						<div></div>
+						<div>
+							
+						</div>
 						<div></div>
 						<div></div>
 						<div className="row-span-3 flex flex-col">
@@ -15,9 +17,11 @@ const editorDeVistas: NextPage = () => {
 					</div>
 					<div className="flex flex-col">
 						<TarjetaInfo />
+						<TarjetaInfo />
+						<TarjetaInfo />
 					</div>
         </>
     )
 }
 
-export default editorDeVistas;
+export default editorDeEntradas;
