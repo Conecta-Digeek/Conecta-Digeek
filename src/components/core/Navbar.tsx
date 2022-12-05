@@ -8,7 +8,7 @@ const Navbar = () => {
     { title: "cetys", link: "" },
   ];
   return (
-    <div className="flex w-full  items-center justify-between bg-gray-100 px-10">
+    <div className="flex w-full  items-center justify-between px-10">
       <div>
         <h1 className="font-bold">CETYS univesidad</h1>
       </div>
