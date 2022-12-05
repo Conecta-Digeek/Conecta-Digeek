@@ -11,11 +11,11 @@ const Event = () => {
       </div>
       <div className="flex w-3/4 flex-col justify-center gap-5 ">
         <div>
-          <h1 className="text-2xl font-bold">Titulo del evento</h1>
-          <h2 className="text-xl text-gray-500">21 de enero del 2022</h2>
+          <h1 className="text-xl font-bold font-normal">Titulo del evento</h1>
+          <h2 className="text-lg text-gray-500">21 de enero del 2022</h2>
         </div>
         <div className="w-1/2">
-          <p className="text-justify">
+          <p className="text-justify text-sm">
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et
             dolorem corrupti ipsa, fuga accusamus pariatur eos saepe. Quisquam

@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex items-center gap-2 py-3">
         {links.map((item) => {
           return (
-            <button className=" rounded bg-white py-2  px-5 text-sm uppercase duration-100 hover:drop-shadow-xl">
+            <button className=" rounded bg-white py-2 px-5 text-sm uppercase shadow duration-100 hover:drop-shadow-xl">
               {item.title}
             </button>
           );
