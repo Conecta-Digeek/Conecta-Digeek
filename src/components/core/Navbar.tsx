@@ -20,7 +20,7 @@ const Navbar = () => {
             </button>
           );
         })}
-        <div className=" rounded border-gray-200">
+        <div className=" rounded border-gray-200 ">
           <img
             src={
               "https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png"

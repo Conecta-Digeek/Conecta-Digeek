@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Article from "../components/mainpage/Article";
 import { signIn, signOut, useSession } from "next-auth/react";
-import Contenttable from "../components/mainpage/contenttable/Contenttable";
+import ContentTable from "../components/mainpage/contentTable/ContentTable";
 
 import { trpc } from "../utils/trpc";
 
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         </div>
         {/* cambiar margenes ------------ */}
         <div className="mt-10 mb-10">
-          <Contenttable />
+          <ContentTable />
         </div>
       </div>
     </>
