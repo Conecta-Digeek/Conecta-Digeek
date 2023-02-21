@@ -10,7 +10,7 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Conecta <GradientText>Digeek</GradientText> 👋
         </>
       }
       description={
@@ -29,7 +29,7 @@ const Hero = () => (
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="http://www.digeek.mx/assets/img/expositores/DigeekLogo.svg"
           alt="Avatar image"
           loading="lazy"
         />

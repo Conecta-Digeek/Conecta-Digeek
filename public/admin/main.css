@@ -1693,3 +1693,14 @@ video {
          column-gap: 6rem;
   }
 }
+
+
+
+/* Custom Styles */
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700; 
+  text-align: center;
+}
+
