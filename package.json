@@ -10,7 +10,9 @@
     "clean": "rimraf dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.astro .",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "generate-admin-css": "tailwindcss build -o public/admin/main.css",
+    "export": "npm run generate-admin-css && astro build"
   },
   "devDependencies": {
     "@astrojs/react": "^0.1.3",
