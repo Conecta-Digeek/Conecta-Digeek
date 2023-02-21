@@ -33,16 +33,11 @@ const {
     <Navbar />
 
     <slot></slot>
-
     <Footer />
-    <script>
-      declare global {
-        interface Window {
-          netlifyIdentity: any;
-        }
-      }
+
+    <script is:inline>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', (user: any) => {
+        window.netlifyIdentity.on('init', (user) => {
           if (!user) {
             window.netlifyIdentity.on('login', () => {
               document.location.href = '/admin/';
